@@ -2,7 +2,7 @@ import sys
 gene_file=sys.argv[1]
 out_file = sys.argv[2]
 with open (gene_file, 'r') as humchr:
-    with open(out_file, 'w')as gene_names:       
+    with open(out_file, 'w')as gene_names:      
         tag = False
         gene_list=[]
         for line in humchr:
